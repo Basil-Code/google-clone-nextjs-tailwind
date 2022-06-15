@@ -51,7 +51,7 @@ export default function Home() {
       </header>
       {/* Body */}
       <form className="flex flex-col items-center mt-20 flex-grow w-4/5">
-        <Image src={googleIcon} width={300} height={100} />
+        <Image src={googleIcon} alt="Google Picture" width={300} height={100} />
 
         <div className="flex w-full mt-5 hover:shadow-lg focus-within:shadow-lg max-w-md rounded-full border border-gray-200 px-5 py-3 items-center sm:max-w-xl lg:max-w-2xl">
           <SearchIcon className="h-5 mr-3 text-gray-500" />
@@ -67,7 +67,8 @@ export default function Home() {
             Google Search
           </button>
           <button className="btn" onClick={search}>
-            I'm Feeling Lucky
+            {/* &apos; -> means apostrophe which is suggested rule that ruined my life for few hours */}
+            I&apos;m Feeling Lucky
           </button>
         </div>
       </form>

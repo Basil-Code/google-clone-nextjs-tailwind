@@ -26,6 +26,7 @@ function Header() {
         <Image
           className="cursor-pointer"
           src={googleIcon}
+          alt="Google Picture"
           width={95}
           height={32}
           onClick={() => router.push("/")}
