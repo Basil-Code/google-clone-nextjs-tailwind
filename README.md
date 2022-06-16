@@ -1,4 +1,4 @@
-## Google Clone using (React.js, Next.js, Server-side rendering, Tailwind CSS,Custom Search JSON API) 🔥🔥
+## Google Clone using (React.js, Next.js, SSR, Tailwind CSS, Responsive, Pagination,Custom Search JSON API) 🔥🔥
 
 ## Google Demo Link
 
