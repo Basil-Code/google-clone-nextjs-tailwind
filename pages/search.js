@@ -7,6 +7,7 @@ import { API_KEY, CONTEXT_KEY } from "../keys";
 
 function Search({ results }) {
   const router = useRouter();
+
   return (
     <div>
       <Head>
